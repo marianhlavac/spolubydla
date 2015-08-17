@@ -18,6 +18,11 @@ h2 {
     margin-bottom: 15px;
 }
 
+a {
+    color: #4287c5;
+    text-decoration: underline;
+}
+
 header {
     background: url('../img/heading.jpg') no-repeat center;
     background-size: cover;
@@ -106,6 +111,27 @@ ul.pers {
             }
         }
     }
+
+    a {
+        font-size: 8pt;
+    }
+}
+
+.photos {
+    text-align: center;
+}
+
+.th {
+    border: 1px solid #ccc;
+    padding: 4px;
+    display: inline-block;
+    line-height: 0;
+
+    img {
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
 }
 
 .ava {
@@ -129,9 +155,64 @@ ul.pers {
     font-weight:normal;
     margin-top: 15px;
     color:gray;
+    line-height: 1.6;
     font-family: 'Asap', sans-serif;
 }
 
 .icon-metro {
     font-size: 8pt;
 }
+
+.photos-story {
+    text-align: left;
+    font-size: 9pt;
+    line-height: 1.6;
+
+    .reveal {
+        display: block;
+    }
+
+    &:hover {
+        .reveal {
+            display: none;
+        }
+
+        .short-title, .long-title {
+            display: block;
+            opacity: 1;
+        }
+
+        .long-story {
+            display: block;
+        }
+    }
+}
+
+.short-title, .long-title {
+    color: gray;
+    text-transform: uppercase;
+    font-size: 8pt;
+}
+
+.short-story {
+    margin: 10px 0;
+}
+
+.long-title {
+    display: none;
+}
+
+.short-title {
+    display: block;
+    opacity: 0;
+}
+
+.long-story {
+    display: none;
+    margin-top: 10px;
+}
+
+
+
+
+
