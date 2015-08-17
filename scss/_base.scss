@@ -212,7 +212,23 @@ ul.pers {
     margin-top: 10px;
 }
 
+.loc {
+    margin-top: 18px;
+    margin-bottom: 5px;
+    color: gray;
+    font-size: 8pt;
+}
 
+footer {
+    clear: both;
+    font-size: 8pt;
+    color: gray;
+    text-align: left;
+    line-height: 1.7;
+    margin-bottom: 70px;
+    margin-top: 20px;
 
-
-
+    strong {
+        font-weight: 700;
+    }
+}
