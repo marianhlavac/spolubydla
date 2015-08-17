@@ -1,0 +1,137 @@
+$black-text: #333;
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: $black-text;
+}
+
+h1 {
+    color: $black-text;
+    font-size: 24pt;
+    margin: 15px 0;
+}
+
+h2 {
+    opacity: .7;
+    text-transform: uppercase;
+    font-size: 18pt;
+    margin-bottom: 15px;
+}
+
+header {
+    background: url('../img/heading.jpg') no-repeat center;
+    background-size: cover;
+    padding: 60px 0px;
+    color: $black-text;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 7px rgba(white, .8);
+}
+
+.subheader {
+    color: $black-text;
+    opacity: .7;
+
+    a {
+        color: $black-text;
+        text-decoration: none;
+
+        &:hover {
+            border-bottom: 2px solid $black-text;
+        }
+    }
+}
+
+.row {
+    max-width: 1000px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-bottom: 60px;
+
+    @media screen and (max-width: 720px) {
+        width: 100%;
+    }
+}
+
+.full-column, .column {
+    padding: 10px 25px;
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 10px 28px;
+    font-size: 11pt;
+    font-family: 'Asap', sans-serif;
+    list-style: disc;
+
+    li {
+        margin-bottom: 13px;
+        line-height: 1.6;
+        padding-left: 15px;
+    }
+}
+
+ul.slab {
+    li {
+        line-height: 1.3;
+        margin-bottom: 9px;
+    }
+}
+
+ul.pers {
+    li {
+        line-height: 30px;
+        height: 39px;
+        margin: 0;
+        vertical-align: middle;
+        position: relative;
+        padding-left: 50px;
+        transition: padding .2s;
+
+        &:hover {
+            padding-left: 65px;
+
+            .ava {
+                width: 70px;
+                height: 70px;
+                border-radius: 35px;
+                top: -22px;
+                left: -15px;
+                z-index: 99;
+            }
+        }
+    }
+}
+
+.ava {
+    border-radius: 15px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 5px;
+    top: -2px;
+    margin-right: 15px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.2);
+    transition: all .2s;
+}
+
+.more-photos {
+    font-size:8pt;
+    font-weight:normal;
+    margin-top: 15px;
+    color:gray;
+    font-family: 'Asap', sans-serif;
+}
+
+.icon-metro {
+    font-size: 8pt;
+}
