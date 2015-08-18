@@ -119,6 +119,10 @@ ul.pers {
 
 .photos {
     text-align: center;
+
+    img {
+        width: 200px;
+    }
 }
 
 .th {
@@ -126,6 +130,7 @@ ul.pers {
     padding: 4px;
     display: inline-block;
     line-height: 0;
+    margin-bottom: 5px;
 
     img {
         border: none;
