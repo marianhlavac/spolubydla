@@ -23,6 +23,10 @@ a {
     text-decoration: underline;
 }
 
+p strong, li strong {
+  font-weight: bold;
+}
+
 header {
     background: url('../img/heading.jpg') no-repeat center;
     background-size: cover;
@@ -119,6 +123,7 @@ ul.pers {
 
 .photos {
     text-align: center;
+    padding-bottom: 5em;
 
     img {
         width: 200px;
