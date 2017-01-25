@@ -123,24 +123,16 @@ ul.pers {
 
 .photos {
     text-align: center;
-    padding-bottom: 5em;
+    padding: 0em 4em 5em 4em;
 
     img {
-        width: 200px;
+        height: 128px;
     }
-}
 
-.th {
-    border: 1px solid #ccc;
-    padding: 4px;
-    display: inline-block;
-    line-height: 0;
-    margin-bottom: 5px;
-
-    img {
-        border: none;
-        padding: 0;
-        margin: 0;
+    a {
+      display: inline-block;
+      width: 128px;
+      overflow: hidden;
     }
 }
 
